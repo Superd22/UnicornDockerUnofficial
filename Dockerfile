@@ -2,7 +2,7 @@ FROM plexinc/pms-docker
 
 RUN \
 # Update and get dependencies
-    curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
+    curl -sL https://deb.nodesource.com/setup_14.x | bash - && \
     apt-get update && \
     apt-get install -y \
       nodejs \
